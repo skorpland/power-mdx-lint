@@ -1,5 +1,5 @@
 {
-  "name": "powerbase-mdx-lint-monorepo",
+  "name": "@skorpland/powerbase-mdx-lint",
   "private": true,
   "workspaces": [
     "packages/*"
