@@ -1,0 +1,33 @@
+{
+  "name": "@skorpland/power-mdx-lint",
+  "version": "0.2.8-alpha",
+  "repository": {
+    "url": "https://github.com/powerbase-community/power-mdx-lint"
+  },
+  "main": "src/index.js",
+  "bin": {
+    "power-mdx-lint": "src/index.js"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@power-mdx-lint/eslint-config": "*",
+    "@types/node": "^22.7.5",
+    "eslint": "^9.13.0",
+    "prettier": "^3.3.3"
+  },
+  "optionalDependencies": {
+    "@skorpland/power-mdx-lint-darwin": "0.2.8-alpha",
+    "@skorpland/power-mdx-lint-linux-arm": "0.2.8-alpha",
+    "@skorpland/power-mdx-lint-linux-arm64": "0.2.8-alpha",
+    "@skorpland/power-mdx-lint-linux-i686": "0.2.8-alpha",
+    "@skorpland/power-mdx-lint-linux-x64": "0.2.8-alpha",
+    "@skorpland/power-mdx-lint-win32-i686": "0.2.8-alpha",
+    "@skorpland/power-mdx-lint-win32-x64": "0.2.8-alpha",
+    "node-pty": "^1.0.0"
+  }
+}
